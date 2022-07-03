@@ -1,0 +1,22 @@
+{
+  "name": "DLEI",
+  "version": "1.0",
+  "background": {"service_worker": "imgDownloader.js"},
+
+ 
+
+  "permissions": [
+    "activeTab",
+    "tabs", 
+    "<all_urls>",
+    "downloads",
+    "webNavigation"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_end"
+    
+  }],
+  "manifest_version": 3
+}
