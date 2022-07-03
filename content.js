@@ -1,12 +1,13 @@
 
 
 function img_find() {
-    var imgs = document.images;
+    //var imgs = document.images;
+    var imgs = document.querySelectorAll("img");
     var imgSrcs = [];
 
     for (var i = 0; i < imgs.length; i++) {
         
-        url = imgs[i].currentSrc
+        url = imgs[i].src
         
       
         console.log(url)
