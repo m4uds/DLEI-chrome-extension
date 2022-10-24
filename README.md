@@ -1,3 +1,8 @@
 # DLEI-chrome-extension
-Google Chrome Extentsion that automaticly downloads each <img> loaded
-by the browser
+
+DOWNLOAD EVERY IMAGE Chrome extension
+
+When active the extension automaticly downloads each <img> loaded
+by the browser. 
+
+Set download directory to external drive.
